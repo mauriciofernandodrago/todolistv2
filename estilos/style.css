@@ -7,20 +7,50 @@ body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     display: flex;
     justify-content: center;
-    
-    
 }
 #container{
     display: flex;
     flex-direction: column;
-    width: 400px;
+    justify-content: center;
+    width: 600px;
 }
 h1{
+    display: block;
+    width: calc(100% - 100px);
     text-align: center;
 }
 #input-container{
     display: flex;
-    flex-direction: row;
-    align-content: center;
+    justify-content: space-between;
+
+}
+#input-task{
+    display: block;
+    width: calc(100% - 100px);
+    border-radius: 20px;
+    font-size: large;
+
+}
+#btn-new-task{
+    display: block;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgb(103, 146, 103);
+    color: rgb(236, 236, 236);
+    border: none;
+}
+
+ul#list{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    font-size: 2em;
+
+}
+li{
+    list-style-type: none;
+    text-transform: capitalize;
 }
 
