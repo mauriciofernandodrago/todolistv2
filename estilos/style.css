@@ -58,6 +58,9 @@ ul#list{
 li{
     list-style-type: none;
     text-transform: capitalize;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 #btn-delete-task{
     border-radius: 50%;
